@@ -1,0 +1,10 @@
+C:\dev\DouglasStore\DouglasStore.API\bin\Debug\netcoreapp2.0\DouglasStore.API.deps.json
+C:\dev\DouglasStore\DouglasStore.API\bin\Debug\netcoreapp2.0\DouglasStore.API.runtimeconfig.json
+C:\dev\DouglasStore\DouglasStore.API\bin\Debug\netcoreapp2.0\DouglasStore.API.runtimeconfig.dev.json
+C:\dev\DouglasStore\DouglasStore.API\bin\Debug\netcoreapp2.0\DouglasStore.API.dll
+C:\dev\DouglasStore\DouglasStore.API\bin\Debug\netcoreapp2.0\DouglasStore.API.pdb
+C:\dev\DouglasStore\DouglasStore.API\obj\Debug\netcoreapp2.0\DouglasStore.API.csproj.CoreCompileInputs.cache
+C:\dev\DouglasStore\DouglasStore.API\obj\Debug\netcoreapp2.0\DouglasStore.API.AssemblyInfoInputs.cache
+C:\dev\DouglasStore\DouglasStore.API\obj\Debug\netcoreapp2.0\DouglasStore.API.AssemblyInfo.cs
+C:\dev\DouglasStore\DouglasStore.API\obj\Debug\netcoreapp2.0\DouglasStore.API.dll
+C:\dev\DouglasStore\DouglasStore.API\obj\Debug\netcoreapp2.0\DouglasStore.API.pdb

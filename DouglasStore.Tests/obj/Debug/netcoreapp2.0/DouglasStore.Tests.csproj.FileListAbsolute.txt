@@ -1,0 +1,13 @@
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\DouglasStore.Tests.deps.json
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\DouglasStore.Tests.runtimeconfig.json
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\DouglasStore.Tests.runtimeconfig.dev.json
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\DouglasStore.Tests.dll
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\DouglasStore.Tests.pdb
+C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.csproj.CoreCompileInputs.cache
+C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.AssemblyInfoInputs.cache
+C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.AssemblyInfo.cs
+C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.dll
+C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.pdb

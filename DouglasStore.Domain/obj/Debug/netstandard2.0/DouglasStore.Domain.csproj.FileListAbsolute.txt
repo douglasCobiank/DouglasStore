@@ -1,0 +1,8 @@
+C:\dev\DouglasStore\DouglasStore.Domain\bin\Debug\netstandard2.0\DouglasStore.Domain.deps.json
+C:\dev\DouglasStore\DouglasStore.Domain\bin\Debug\netstandard2.0\DouglasStore.Domain.dll
+C:\dev\DouglasStore\DouglasStore.Domain\bin\Debug\netstandard2.0\DouglasStore.Domain.pdb
+C:\dev\DouglasStore\DouglasStore.Domain\obj\Debug\netstandard2.0\DouglasStore.Domain.csproj.CoreCompileInputs.cache
+C:\dev\DouglasStore\DouglasStore.Domain\obj\Debug\netstandard2.0\DouglasStore.Domain.AssemblyInfoInputs.cache
+C:\dev\DouglasStore\DouglasStore.Domain\obj\Debug\netstandard2.0\DouglasStore.Domain.AssemblyInfo.cs
+C:\dev\DouglasStore\DouglasStore.Domain\obj\Debug\netstandard2.0\DouglasStore.Domain.dll
+C:\dev\DouglasStore\DouglasStore.Domain\obj\Debug\netstandard2.0\DouglasStore.Domain.pdb

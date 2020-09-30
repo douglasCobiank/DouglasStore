@@ -1,0 +1,8 @@
+C:\dev\DouglasStore\DouglasStore.Shared\bin\Debug\netstandard2.0\DouglasStore.Shared.deps.json
+C:\dev\DouglasStore\DouglasStore.Shared\bin\Debug\netstandard2.0\DouglasStore.Shared.dll
+C:\dev\DouglasStore\DouglasStore.Shared\bin\Debug\netstandard2.0\DouglasStore.Shared.pdb
+C:\dev\DouglasStore\DouglasStore.Shared\obj\Debug\netstandard2.0\DouglasStore.Shared.csproj.CoreCompileInputs.cache
+C:\dev\DouglasStore\DouglasStore.Shared\obj\Debug\netstandard2.0\DouglasStore.Shared.AssemblyInfoInputs.cache
+C:\dev\DouglasStore\DouglasStore.Shared\obj\Debug\netstandard2.0\DouglasStore.Shared.AssemblyInfo.cs
+C:\dev\DouglasStore\DouglasStore.Shared\obj\Debug\netstandard2.0\DouglasStore.Shared.dll
+C:\dev\DouglasStore\DouglasStore.Shared\obj\Debug\netstandard2.0\DouglasStore.Shared.pdb
