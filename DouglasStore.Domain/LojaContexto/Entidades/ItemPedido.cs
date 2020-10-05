@@ -1,4 +1,4 @@
-namespace DouglasStore.Domain.LojaContexto
+namespace DouglasStore.Domain.LojaContexto.Entidades
 {
     public class ItemPedido
     {
