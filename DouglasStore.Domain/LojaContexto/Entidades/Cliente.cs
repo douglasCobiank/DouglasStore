@@ -1,4 +1,7 @@
+using System.Collections.Generic;
 using System;
+using DouglasStore.Domain.LojaContexto.ObjetoValor;
+
 namespace DouglasStore.Domain.LojaContexto.Entidades
 {
     public class Cliente
@@ -10,31 +13,27 @@ namespace DouglasStore.Domain.LojaContexto.Entidades
         //i =
         //d =
         public Cliente(
-            string _primeiroNome,
-            string _sobreNome,
-            string _documento,
-            string _email,
+            Nome nome,
+            Documento _documento,
+            Email _email,
             string _telefone,
             string _endereco
         ){
-            PrimeiroNome = _primeiroNome;
-            Sobrenome = _sobreNome;
+            Nome = nome;
             Documento = _documento;
             Email = _email;
             Telefone = _telefone;
-            Endereco = _endereco;
+            Enderecos = new List<Endereco>();
         }
-        
-        public string PrimeiroNome { get; private set; }
-        public string Sobrenome { get; private set; }
-        public string Documento { get; private set; }
-        public string Email { get; private set; }
+        public Nome Nome{get; private set;}
+        public Documento Documento { get; private set; }
+        public Email Email { get; private set; }
         public string Telefone { get; private set; }
-        public string Endereco { get; private set; }
+        public IReadOnlyCollection<Endereco> Enderecos { get; private set; }
 
         public override string ToString()
         {
-            return $"{PrimeiroNome} {Sobrenome}";
+            return Nome.ToString();
         }
     }
 }

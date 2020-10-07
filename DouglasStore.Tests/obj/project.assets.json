@@ -1600,6 +1600,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "DouglasStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DouglasStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DouglasStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -5738,10 +5748,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "DouglasStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DouglasStore.Domain/DouglasStore.Domain.csproj",
+      "msbuildProject": "../DouglasStore.Domain/DouglasStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "DouglasStore.Domain >= 1.0.0",
       "MSTest.TestAdapter >= 1.1.18",
       "MSTest.TestFramework >= 1.1.18",
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
@@ -5780,7 +5796,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\DouglasStore\\DouglasStore.Domain\\DouglasStore.Domain.csproj": {
+              "projectPath": "C:\\dev\\DouglasStore\\DouglasStore.Domain\\DouglasStore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
