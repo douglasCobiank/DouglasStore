@@ -179,7 +179,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user.DESKTOP-V1182E3\\.nuget\\packages\\": {},
+    "C:\\Users\\dougl\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -189,7 +189,7 @@
       "projectUniqueName": "C:\\dev\\DouglasStore\\DouglasStore.Infra\\DouglasStore.Infra.csproj",
       "projectName": "DouglasStore.Infra",
       "projectPath": "C:\\dev\\DouglasStore\\DouglasStore.Infra\\DouglasStore.Infra.csproj",
-      "packagesPath": "C:\\Users\\user.DESKTOP-V1182E3\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\DouglasStore\\DouglasStore.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -197,7 +197,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user.DESKTOP-V1182E3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

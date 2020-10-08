@@ -11,3 +11,5 @@ C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Test
 C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.AssemblyInfo.cs
 C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.dll
 C:\dev\DouglasStore\DouglasStore.Tests\obj\Debug\netcoreapp2.0\DouglasStore.Tests.pdb
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\DouglasStore.Domain.dll
+C:\dev\DouglasStore\DouglasStore.Tests\bin\Debug\netcoreapp2.0\DouglasStore.Domain.pdb
