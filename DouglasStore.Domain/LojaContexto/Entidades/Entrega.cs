@@ -14,7 +14,6 @@ namespace DouglasStore.Domain.LojaContexto.Entidades
         public DateTime DataPedido {get; private set;}
         public DateTime DataEstimadaDeEntrega {get; private set;}
         public EStatusEntrega Status{get; private set;}
-
         public void Enviado(){
             Status = EStatusEntrega.Enviado;
         }

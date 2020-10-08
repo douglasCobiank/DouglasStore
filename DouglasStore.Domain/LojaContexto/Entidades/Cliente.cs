@@ -13,7 +13,6 @@ namespace DouglasStore.Domain.LojaContexto.Entidades
         //l = 
         //i =
         //d =
-
         private readonly IList<Endereco> _addEndereco;
         public Cliente(
             Nome nome,
