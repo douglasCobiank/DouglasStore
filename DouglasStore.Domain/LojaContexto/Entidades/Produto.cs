@@ -1,7 +1,9 @@
 using System;
+using FluentValidator;
+
 namespace DouglasStore.Domain.LojaContexto.Entidades
 {
-    public class Produto
+    public class Produto: Notifiable
     {
         public Produto(
             string _titulo,

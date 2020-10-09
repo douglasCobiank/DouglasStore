@@ -1,10 +1,11 @@
 using System.ComponentModel;
 using System;
 using DouglasStore.Domain.LojaContexto.Enums;
+using FluentValidator;
 
 namespace DouglasStore.Domain.LojaContexto.Entidades
 {
-    public class Entrega
+    public class Entrega : Notifiable
     {
         public Entrega(DateTime dataEstimada){ 
             DataPedido = DateTime.Now;

@@ -1,12 +1,14 @@
+using System.Net.Http.Headers;
 using System.Security.Cryptography.X509Certificates;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using DouglasStore.Domain.LojaContexto.Enums;
+using FluentValidator;
 
 namespace DouglasStore.Domain.LojaContexto.Entidades
 {
-    public class Pedido
+    public class Pedido: Notifiable
     {
         private readonly IList<ItemPedido> _itemPedido;
         private readonly IList<Entrega> _entrega;
@@ -24,7 +26,13 @@ namespace DouglasStore.Domain.LojaContexto.Entidades
         public IReadOnlyCollection<ItemPedido> Itens => _itemPedido.ToArray();
         public IReadOnlyCollection<Entrega> Entregas => _entrega.ToArray();
 
-        public void AddItem(ItemPedido item){
+
+        public void AddItem(Produto produto, decimal qtde){
+            if(qtde > produto.QtdeEstoque){
+                AddNotification("Item Pedido",$"Produto {produto.Titulo} não tem {qtde} itens em estoque.");
+            }
+
+            var item = new ItemPedido(produto, qtde);
             _itemPedido.Add(item);
         }
 
@@ -35,6 +43,9 @@ namespace DouglasStore.Domain.LojaContexto.Entidades
         //fecha o pedido
         public void FecharPedido(){
             Numero = Guid.NewGuid().ToString().Replace("-","").Substring(0,8).ToUpper();
+            if(_itemPedido.ToList().Count == 0){
+                AddNotification("Pedido","Esse pedido não possui itens");
+            }
         }
 
         //paga o pedido

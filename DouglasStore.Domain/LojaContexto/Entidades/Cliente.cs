@@ -2,10 +2,11 @@ using System.Collections.Generic;
 using System;
 using DouglasStore.Domain.LojaContexto.ObjetoValor;
 using System.Linq;
+using FluentValidator;
 
 namespace DouglasStore.Domain.LojaContexto.Entidades
 {
-    public class Cliente
+    public class Cliente : Notifiable
     {
         //Solid
         //s = Apenas o que é da classe na classe.(Single Responsability Principal) 

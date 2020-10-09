@@ -1,8 +1,9 @@
 using DouglasStore.Domain.LojaContexto.Enums;
+using FluentValidator;
 
 namespace DouglasStore.Domain.LojaContexto.ObjetoValor
 {
-    public class Endereco
+    public class Endereco :Notifiable
     {
         public Endereco( string rua
                        , string numero
